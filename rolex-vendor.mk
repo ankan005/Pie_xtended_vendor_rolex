@@ -2411,3 +2411,25 @@ PRODUCT_PACKAGES += \
     qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a \
     qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a \
     qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a
+
+
+ # Camera fixes
+PRODUCT_COPY_FILES += \
+ vendor/xiaomi/rolex/proprietary/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+ vendor/xiaomi/rolex/proprietary/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+ vendor/xiaomi/rolex/proprietary/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+ vendor/xiaomi/rolex/proprietary/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+ vendor/xiaomi/rolex/proprietary/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+ vendor/xiaomi/rolex/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+ vendor/xiaomi/rolex/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so\
+ vendor/xiaomi/rolex/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+ vendor/xiaomi/rolex/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+ vendor/xiaomi/rolex/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+ vendor/xiaomi/rolex/proprietary/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+ vendor/xiaomi/rolex/proprietary/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+ vendor/xiaomi/rolex/proprietary/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+ vendor/xiaomi/rolex/proprietary/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+ vendor/xiaomi/rolex/proprietary/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+ vendor/xiaomi/rolex/proprietary/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+ vendor/xiaomi/rolex/proprietary/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so \
+ vendor/xiaomi/rolex/proprietary/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so
