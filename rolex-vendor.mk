@@ -2411,8 +2411,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     imssettings \
-    libMpeg4SwEncoder \
-    CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     TimeService \
